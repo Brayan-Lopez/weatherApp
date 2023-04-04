@@ -1,0 +1,114 @@
+.weatherHeader{
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  padding: .5rem;
+  max-width: 25rem;
+  margin: 3rem auto 3rem;
+}
+.weatherApp{
+  font-size: 2.5rem;
+  text-shadow: 3px 3px 4px rgba(55, 55, 55, 0.643), 0 0 7px rgb(210, 245, 255);
+}
+
+.serchForm{
+  display: flex;
+  gap: .5rem;
+  width: 100%;
+}
+.form{
+  height: 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: .5rem;
+}
+.input{
+width: 80%;
+box-shadow: 3px 3px 6px rgba(55, 55, 55, 0.643);
+}
+.button{
+  width: 20%;
+  box-shadow: 3px 3px 6px rgba(55, 55, 55, 0.643);
+}
+
+.weather-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: .5rem;
+}
+
+.weather-tarjet{
+  width: 100%;
+  max-width: 25rem;
+  display: flex;
+  gap: .4rem;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.data{
+  background-color: rgba(255, 255, 255, 0.517);
+  margin: 0;
+  width: 100%;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  box-shadow: 3px 3px 6px rgba(55, 55, 55, 0.643);
+}
+.data p{
+  margin: 0;
+}
+
+.temp{
+  background-color: rgba(255, 255, 255, 0.517);
+  margin: 0;
+  font-size: 3.5rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.temp img{
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(5%, -20%);
+}
+
+.oter{
+ font-weight: 500;
+ box-shadow: 3px 3px 6px rgba(55, 55, 55, 0.643);
+}
+.oter p{
+  font-size: .9rem;
+}
+
+.city{
+  position: relative;
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 3px 3px 6px rgba(89, 89, 89, 0.643);
+}
+.city p:first-child{
+  font-size: 1.2rem;
+}
+.city p:last-child{
+ margin: 0 auto;
+ transform: translate(0%, 10%);
+}
+
+.buttonTemp{
+  margin: 4rem auto 0;
+  width: 9rem;
+  height: 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: .5rem;
+  box-shadow: 3px 3px 6px rgba(55, 55, 55, 0.643);
+}
